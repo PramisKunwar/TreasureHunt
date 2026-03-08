@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt Extension</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <h1> Hidden words <br> Treasure Hunt</h1>
+
+        <div class="section">
+            <p class="label">Current Tressure Word</p>
+            </div>
+            <p id="treasure-word" class="word-display">_ _ _ _</p>
+        </div>
+
+        <div class="section">
+            <p class="label">Collected Letters</p>
+            <p id="collected-letters" class="collected"></p>
+        </div>
+
+        <div class="section">
+            <p class="label">Treasures Found</p>
+            <p id="treasure-count" class="count">0</p>
+        </div>
+
+        <p class="hint">Keep exploring webpages to find hidden glowing letters.</p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
