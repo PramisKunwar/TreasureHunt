@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const displayChars = word.split("").map((letter) => {
 
-        if (collected.includes(letter)) {
+        if (collected.includes(letter)) 
+          {
           return letter;
         }
         return "_";

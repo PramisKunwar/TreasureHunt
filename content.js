@@ -48,7 +48,8 @@ function highlightLetters(word, collected)
   textNodes.forEach((node) => 
     {
     const text = node.textContent;
-    for (let i = 0; i < text.length; i++) {
+    for (let i = 0; i < text.length; i++) 
+      {
       const char = text[i].toUpperCase();
       if (neededLetters.includes(char)) {
         candidates.push({ node, index: i, letter: char });
@@ -63,7 +64,8 @@ function highlightLetters(word, collected)
   const grouped = new Map();
   toHighlight.forEach((item) => 
     {
-    if (!grouped.has(item.node)) {
+    if (!grouped.has(item.node)) 
+      {
       grouped.set(item.node, []);
     }
     grouped.get(item.node).push(item);
