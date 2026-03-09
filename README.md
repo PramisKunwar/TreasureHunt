@@ -60,4 +60,4 @@ extension/
 
 ---
 
-Made with 💖 for Hack club.beeeeee  
+Made with 💖 for Hack club.
