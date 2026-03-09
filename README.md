@@ -3,6 +3,16 @@
 A simple Chrome Extension that turns normal browsing into a treasure hunt! Random letters on webpages glow softly — click them to collect letters and discover hidden words.
 
 ---
+![Treasure HUNT](/TreasureHunt.png)
+---
+![Treasure HUNT](/TreasureHunt2.png)
+---
+![Treasure HUNT](/TreasureHunt3.png)
+---
+![Treasure HUNT](/TreasureHunt4.png)
+---
+![Treasure HUNT](/TreasureHunt5.png)
+---
 
 ## ✨ How It Works
 
