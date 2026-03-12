@@ -1,4 +1,3 @@
-//This is content.js
 const TREASURE_WORDS = ["CODE", "WEB", "GAME", "DATA", "NODE"];
 
 const MAX_HIGHLIGHTS = 6;
