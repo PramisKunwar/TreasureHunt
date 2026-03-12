@@ -1,4 +1,3 @@
-//This is popup.js
 document.addEventListener("DOMContentLoaded", () => {
   chrome.storage.local.get(
     ["treasureWord", "collectedLetters", "treasureCount"],
